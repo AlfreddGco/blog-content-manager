@@ -86,7 +86,7 @@ export default {
 			blog:{
 				_id: '',
 				title: 'Title',
-				author: 'Alfredo G',
+				author: '',
 				description: '',
 				thumbnail: '',//http://localhost:5000/static/images/leaf.jpg
 				elements: [],
