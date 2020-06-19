@@ -1,0 +1,26 @@
+{
+  "name": "blog_manager",
+  "version": "1.0.0",
+  "description": "A simple content manager (primary blogs) made with express, vue, and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "blog",
+    "manager",
+    "content",
+    "api",
+    "mongodb"
+  ],
+  "author": "Alfredo G",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "multer": "^1.4.2"
+  }
+}
