@@ -1,7 +1,9 @@
 # Content manager (blogs and news)
 This is a backend and frontend content manager written in vue, express and mongodb. The backend has it's own api so you can retrieve blogs and news when you call it from an external app
 
-![Demo](ss.png?raw=true "Blogs page")
+![Demo](demo_images/ss.png?raw=true "Blogs page")
+![Demo](demo_images/ss2.png?raw=true "Show blog")
+![Demo](demo_images/ss3.png?raw=true "Edit blog")
 
 ### Installation
 
