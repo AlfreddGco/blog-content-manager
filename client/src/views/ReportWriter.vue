@@ -68,7 +68,7 @@ import Utils from '../utils/utils';
 
 import router from '../router/index';
 import axios from 'axios';
-import config from '../../vue.config';
+import config from '../../config';
 
 export default {
 	name: 'ReportWriter',
@@ -187,7 +187,7 @@ export default {
 					}
 				).then(function(res){
 					newElement.type = type;
-					newElement.content = config.devServer.proxy + res.data;
+					newElement.content = config.devServer + res.data;
         })
         .catch(function(){
 					alert('Error uploading image');
@@ -204,7 +204,7 @@ export default {
 					headers: {'Content-Type': 'multipart/form-data'}
 				}
 			).then(function(res){
-				this.report.thumbnail = config.devServer.proxy + res.data;
+				this.report.thumbnail = config.devServer + res.data;
 			}.bind(this))
 			.catch(function(){
 				alert('Error uploading image');

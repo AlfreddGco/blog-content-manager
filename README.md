@@ -18,7 +18,7 @@ $ npm install
 And that's it!
 
 ### Client config (vue)
-You can configure the frontend in the [vue.config.js](client/vue.config.js) file, where you can manage backend host and api url endpoints.
+You can configure the frontend in the [vue.config.js](client/vue.config.js) and [config.js](client/config.js) files, where you can manage backend host and api url endpoints.
 ### Backend config (express)
 You must configure your mongodb info in the [config.js](server/config.js) file, setting user, password, name, host, and port of your mongod database.
 

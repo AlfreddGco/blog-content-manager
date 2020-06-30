@@ -18,7 +18,7 @@
 import Card from '../components/Card.vue';
 
 import axios from 'axios';
-import config from '../../vue.config';
+import config from '../../config';
 
 export default {
   name: 'News',
