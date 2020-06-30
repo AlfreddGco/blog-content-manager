@@ -34,4 +34,4 @@ $ npm run serve
 ```
 
 ### Development
-Want to contribute? This is a simple project with very few code and easy to understand. I will be pending of any commit request you make!
+Want to contribute? This is a simple project with very few code and easy to understand. I will be pending of any pull request you make!
